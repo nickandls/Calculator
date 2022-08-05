@@ -1,0 +1,100 @@
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7")
+      format("svg");
+}
+
+body {
+  background-color: #f5e8c7;
+}
+#display {
+  overflow: hidden;
+  width: 450px;
+  background-color: black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.inputDisplay {
+  padding-right: 20px;
+  text-align: right;
+}
+
+input {
+  width: 100%;
+  background-color: black;
+  border: none;
+  font-family: Digital;
+  text-align: right;
+}
+#formulaDisplay {
+  padding-top: 20px;
+  color: #d5a353;
+  font-size: 18px;
+}
+
+#digitDisplay {
+  color: white;
+  font-size: 25px;
+}
+
+/* Buttons */
+
+.buttonsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 2px;
+  padding: 20px;
+}
+
+button {
+  padding: 20px;
+  font-family: Digital;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #deb6ab;
+  border-width: 1px;
+  border-right-width: 0;
+}
+button:hover {
+  background-color: #ac7088;
+}
+
+.jumbo {
+  background-color: #eb4747;
+}
+.jumbo:hover {
+  color: white;
+  background-color: #eb4747;
+  box-shadow: inset 0px 0px 5px black;
+}
+
+#equals {
+  position: relative;
+  height: 204%;
+  border-right-width: 1px;
+  background-color: #abc9ff;
+}
+.operator {
+  background-color: #666666;
+}
+
+#zero {
+  width: 304%;
+}
+
+#equals:hover {
+  color: white;
+  background-color: #abc9ff;
+  box-shadow: inset 0px 0px 5px black;
+}
